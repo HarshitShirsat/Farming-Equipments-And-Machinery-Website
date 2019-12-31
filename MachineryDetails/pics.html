@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Equipments and Machinery</title>
+    <link rel="stylesheet" type="text/css" href="/Testproject/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: "Lato", sans-serif;
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: green;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: black;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        #main {
+            transition: margin-left .5s;
+            padding: 16px;
+        }
+
+        @media screen and (max-height: 450px) {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+        }
+    </style>
+</head>
+
+<div  class="green">
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About</a>
+    <a href="/Testproject/start.html">Home</a>
+    <a href="/Testproject/DealerDetails/Dealer_Details.php">Dealer Details</a>
+    <a href="/Testproject/ManufacturerDetails/Manufacturer_Details.php">Manufacturer Details</a>
+    <a href="/Testproject/BuyOrRent/Buy_Rent.php">Buy Equipment</a>
+    <a href="/Testproject/BuyOrRent/Farmer_Owned_Equipment.php">Owned Equipment</a>
+
+</div>
+
+<div id="main">
+<!--    <h2>Sidenav Push Example</h2>-->
+    <!--        <p>Click on the element below to open the side navigation menu, and push this content to the right.</p>-->
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; DASHBOARD</span>
+
+</div>
+    <div class="zone green grid-wrapper">
+        <div class="box zone"><img src="/Testproject/img/handsickle.jpg">
+            <h3 style="color: white">Hand Sickle</h3>
+            <p style="color: white">Used in cutting grass and weeds</p>
+            <p style="color: white">Rs 50/piece</p></div>
+
+
+        <div class="box zone"><img src="/Testproject/img/pickaxe.jpg">
+            <h3 style="color: white">Pick Axe</h3>
+            <p style="color: white">Used in digging of soil</p>
+            <p style="color: white">Rs 175/piece</p></div>
+
+        <div class="box zone"><img src="/Testproject/img/discharrow.jpg">
+            <h3 style="color: white">Disc Harrow</h3>
+            <p style="color: white">Used in Tilling of soil</p>
+            <p style="color: white">Rs 42500/piece</p></div>
+
+        <div class="box zone"><img src="/Testproject/img/landleveler.jpg">
+            <h3 style="color: white">Land Leveller</h3>
+            <p style="color: white">Used in levelling of land</p>
+            <p style="color: white">Rs 10500/piece</p></div>
+
+        <div class="box zone"><img src="/Testproject/img/agriculturalspraypump.jpg">
+            <h3 style="color: white">Agricultural Spray Pump</h3>
+            <p style="color: white">Used for spraying insecticides</p>
+            <p style="color: white">Rs 2000/piece</p></div>
+
+        <div class="box zone"><img src="/Testproject/img/powerharrows.jpg">
+            <h3 style="color: white">Power Harrows</h3>
+            <p style="color: white">Used for breaking up clods</p>
+            <p style="color: white">Rs 150000/piece</p></div>
+
+        <div class="box zone"><img src="/Testproject/img/discridger.jpg">
+            <h3 style="color: white">Disc Ridger</h3>
+            <p style="color: white">Used for making irrigation banks</p>
+            <p style="color: white">Rs 22000/piece</p></div>
+
+        <div class="box zone"><img src="/Testproject/img/plough.jpg">
+            <h3 style="color: white">Plough</h3>
+            <p style="color: white">Used for cultivation</p>
+            <p style="color: white">Rs 4000/piece</p></div>
+
+        <div class="box zone"><img src="/Testproject/img/grassshrubmaster.jpg">
+            <h3 style="color: white">Grass Shrub Master</h3>
+            <p style="color: white">Used in cutting grass and weeds</p>
+            <p style="color: white">Rs 75000/piece</p></div>
+
+        <div class="box zone"><img src="/Testproject/img/shovel.jpg">
+            <h3 style="color: white">Shovel</h3>
+            <p style="color: white">Used for digging soil</p>
+            <p style="color: white">Rs 499/piece</p></div>
+
+        <div class="box zone"><img src="/Testproject/img/seedermachine.jpg">
+            <h3 style="color: white">Seeder Machine</h3>
+            <p style="color: white">Used for planting seeds</p>
+            <p style="color: white">Rs 160000/piece</p></div>
+
+        <div class="box zone"><img src="/Testproject/img/agroshadenet.jpg">
+            <h3 style="color: white">Agro Shade Net</h3>
+            <p style="color: white">Used for providing shade for crops</p>
+            <p style="color: white">Rs 1500/piece</p></div>
+
+        <div class="box zone"><img src="/Testproject/img/powerweeder.jpg">
+            <h3 style="color: white">Power Weeder</h3>
+            <p style="color: white">Used for removing weeds</p>
+            <p style="color: white">Rs 47040/piece</p></div>
+
+        <div class="box zone"><img src="/Testproject/img/maizesheller.jpg">
+            <h3 style="color: white">Maize Sheller</h3>
+            <p style="color: white">Used for separating grains from crops</p>
+            <p style="color: white">Rs 7000/piece</p></div>
+
+        <div class="box zone"><img src="/Testproject/img/seedcracker.jpg">
+            <h3 style="color: white">Seed Cracker</h3>
+            <p style="color: white">Used for cracking seeds</p>
+            <p style="color: white">Rs 300000/piece</p></div>
+
+        <div class="box zone"><img src="/Testproject/img/farmtiller.jpg">
+            <h3 style="color: white">Farm Tiller</h3>
+            <p style="color: white">Used for ploughing of soil</p>
+            <p style="color: white">Rs 65000/piece</p></div>
+
+        <div class="box zone"><img src="/Testproject/img/minidischarrow.jpg">
+            <h3 style="color: white">Mini Disc Harrow</h3>
+            <p style="color: white">Used for tilling of soil</p>
+            <p style="color: white">Rs 35000/piece</p></div>
+
+        <div class="box zone"><img src="/Testproject/img/promaizehusker.jpg">
+            <h3 style="color: white">Pro Maize Husker</h3>
+            <p style="color: white">Used for separating grains from crops</p>
+            <p style="color: white">Rs 149000/piece</p></div>
+
+        <div class="box zone"><img src="/Testproject/img/centrerotarypowerweeder.jpg">
+            <h3 style="color: white">Centre Rotary Power Weeder</h3>
+            <p style="color: white">Used for removing weeds</p>
+            <p style="color: white">Rs 80000/piece</p></div>
+
+        <div class="box zone"><img src="/Testproject/img/centrerotarytiller.jpg">
+            <h3 style="color: white">Rotary Tiller</h3>
+            <p style="color: white">Used for ploughing of soil</p>
+            <p style="color: white">Rs 95000/piece</p></div>
+
+        <div class="box zone"><img src="/Testproject/img/seedlingtransplanter.jpg">
+            <h3 style="color: white">Seedling Transplanter</h3>
+            <p style="color: white">Used for planting seeds</p>
+            <p style="color: white">Rs 2000/piece</p></div>
+
+
+    </div>
+
+</div>
+
+
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+    }
+</script>
+</body>
+</html>
